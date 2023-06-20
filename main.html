@@ -10,21 +10,25 @@
 	<h2>Feedback Form</h2>
 	<form method="post">
 		<div>
-			<label for = "name">Name</label>
-			<input type="text" id="name" minlength="3" maxlength="50">
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" minlength="3" maxlength="50">
+		</div>
+
+		<div>
+			<label for="portfolio">Portfolio</label>
+			<input type="url" name="" id="portfolio">
+		</div>
+
+		<div>
+			<label for="favColor">favColor</label>
+			<input type="color" name="" id="favColor">
 		</div>
 		<div>
-			<lable for="portfolio">Portfolio</lable>
-			<input type="url" id="portfolio">
+			<label for="likeness">likeness</label>
+			<input type="range" id="likeness" name="likeness" min="1" max="100">
+
 		</div>
-		<div>
-			<label for="likeness"> Likeness</label>
-			<input type="range" id="likeness" min="1" max="100">
-		</div>
-		<div>
-			<label for="favColor"> favColor</label>
-			<input type="color" id="favColor">
-		</div>
+
 		<button type="submit" id="submit">Submit</button>
 	</form>
 	<!-- the entire body must be written by student -->
